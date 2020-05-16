@@ -7,6 +7,9 @@ Vue.config.productionTip = false
 // 导入less
 import '@/styles/base.less'
 
+import router from '@/router'
+
 new Vue({
   render: h => h(App),
+  router
 }).$mount('#app')
