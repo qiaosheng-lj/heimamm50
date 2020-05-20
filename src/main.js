@@ -7,6 +7,10 @@ Vue.config.productionTip = false
 // 导入less
 import '@/styles/base.less'
 
+import '@/plugins/element.js'
+
+import '@/utils/request.js'
+
 import router from '@/router'
 
 new Vue({
